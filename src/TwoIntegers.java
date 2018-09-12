@@ -34,11 +34,11 @@ public class TwoIntegers
 	public String arithmetic()
 	{
 		int add = num + value;
-		int sub = num - value;
+		int quo = num % value;
 		double div = (double) num / value;
 		int mult = num * value;
 
-		return num + " + " + value + " = " + add + " , " + num + " - " + value + " = " + sub + " , " +  num + " / " + value + " = " + div + " , " + num + " * " + value + " = " + mult + " . ";
+		return num + " + " + value + " = " + add + " , " + num + " * " + value + " = " + mult + " , " +  num + " / " + value + " = " + div + " , " + num + " % " + value + " = " + quo + " . ";
 
 
 	}
